@@ -68,6 +68,42 @@ These can be modified directly in the `main.py` file.
 ## Benchmark
 
 ```
+
+--- Auto-Dockerizer Benchmark Report ---
+
+Overall Performance:
+  Total Repositories Benchmarked: 4
+  Successful Dockerizations: 2
+  Failed Dockerizations: 2
+  Overall Success Rate: 50.00%
+
+Breakdown by Tag:
+  langchain:
+    Successful: 0
+    Failed: 2
+    Success Rate: 0.00%
+  no-framework:
+    Successful: 2
+    Failed: 0
+    Success Rate: 100.00%
+  notebook:
+    Successful: 0
+    Failed: 1
+    Success Rate: 0.00%
+  playwright:
+    Successful: 0
+    Failed: 1
+    Success Rate: 0.00%
+  python:
+    Successful: 2
+    Failed: 2
+    Success Rate: 50.00%
+  require-files:
+    Successful: 0
+    Failed: 1
+    Success Rate: 0.00%
+
+--- End Report ---
 ```
 
 ## Backlog
